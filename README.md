@@ -19,7 +19,8 @@ without the above requirement, the app may not work
     - follow the instruction for your chosen database credential
 - generate api: `node ace generate:key` 
   - copy the generated string into your `.env` and make it equal to or assign it to the key: `APP_KEY`
-- Set up your database
+- Set up your local or remote database
+  - Run migration: `node ace migration:run`
 - start the server with: `node ace serve --watch`
   - the server will start at: `localhost:3333`
 
